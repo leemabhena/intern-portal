@@ -1,0 +1,54 @@
+.RectangleTile {
+  padding: 1rem;
+  border: 1px solid lightgray;
+  margin: 1rem;
+  display: flex;
+}
+
+.RectangleTile img {
+  width: 40px;
+  height: 40px;
+}
+
+.RectangleTile h4 {
+  margin-bottom: 0.2rem;
+}
+
+.RectangleTile p {
+  color: var(--grey);
+  font-size: 0.8rem;
+}
+
+.--items {
+  display: flex;
+  flex-direction: row;
+  margin: 0.2rem 0 0.4rem 0;
+}
+
+.pd-3-lf {
+  padding-left: 3rem;
+}
+
+.rect-btns {
+  margin-top: 0.5rem;
+}
+
+.aply {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  color: #fff;
+  margin-left: 1rem;
+  padding: 0.3rem;
+}
+
+.detail {
+  border: 1px solid lightgrey;
+  color: grey;
+  background: #fff;
+  font-size: 14px;
+  padding: 0.2rem;
+}
+
+.rect-info {
+  margin-left: 1rem;
+}

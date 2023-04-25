@@ -1,0 +1,19 @@
+.CreateRandomId p {
+  color: var(--grey);
+  margin: 0.5rem 0;
+  font-size: 14px;
+}
+
+.CreateRandomId input {
+  border: 1px solid var(--grey);
+  padding: 0.4rem 0.2rem;
+  color: var(--grey);
+  outline: none;
+}
+
+.CreateRandomId button {
+  display: block;
+  margin-top: 1rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+}

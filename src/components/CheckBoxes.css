@@ -1,0 +1,26 @@
+.CheckBoxes {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.CheckBoxes h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: var(--grey);
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.CheckBoxes input[type="checkbox"] {
+  color: var(--grey);
+  width: 9px;
+  height: 9px;
+}
+
+.CheckBoxes label {
+  color: var(--grey);
+  font-size: 12px;
+  font-weight: 500;
+}

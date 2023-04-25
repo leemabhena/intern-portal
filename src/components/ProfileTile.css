@@ -1,0 +1,31 @@
+.ProfileTile {
+  display: flex;
+  align-items: center;
+  padding: 0.35rem 0.2rem;
+  width: 200px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.avatar-sm {
+  width: 40px;
+  height: 40px;
+}
+
+.user-description {
+  padding-left: 0.5rem;
+}
+
+.user-name {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  margin-bottom: 0.2rem;
+  font-weight: 700;
+  color: var(--tertiary-color);
+}
+
+.user-id {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: var(--grey);
+}

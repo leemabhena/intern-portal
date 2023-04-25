@@ -1,0 +1,53 @@
+.SearchResults {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.results-title {
+  flex: 1;
+}
+
+.show-result-t {
+  color: var(--grey);
+}
+
+.SearchResults p {
+  color: var(--grey);
+  font-size: 11px;
+  margin-top: 0.4rem;
+}
+
+.results-sq {
+  background-color: #fff;
+  padding: 0.2rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--grey);
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.results-rec {
+  background-color: #fff;
+  color: var(--grey);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.3rem;
+}
+
+.results-rec i {
+  margin-right: 0.4rem;
+}
+
+.results-rec select {
+  border: none;
+  outline: none;
+  color: var(--grey);
+}

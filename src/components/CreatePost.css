@@ -1,0 +1,45 @@
+.CreatePost input,
+.CreatePost select {
+  padding: 0.5rem;
+  border-radius: none;
+  margin-right: 0.3rem;
+  border: 2px solid lightgrey;
+  outline: none;
+  margin-top: 0.5rem;
+  color: var(--grey);
+}
+
+.CreatePost textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  outline: none;
+  border: 2px solid lightgrey;
+  color: var(--grey);
+  padding: 0.5rem;
+}
+
+.CreatePost p {
+  color: var(--grey);
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+.CreatePost label {
+  color: var(--grey);
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+.CreatePost input[type="radio"] {
+  width: 10px;
+  height: 10px;
+}
+
+.createpost-btn {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+#file {
+  border: none;
+}

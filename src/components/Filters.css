@@ -1,0 +1,10 @@
+.filters-top {
+  margin: 1rem;
+  color: var(--grey);
+  display: flex;
+  justify-content: space-between;
+}
+
+.clear-filters {
+  cursor: pointer;
+}

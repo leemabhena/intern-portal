@@ -1,0 +1,6 @@
+.Posts {
+  /* margin: 2rem; */
+  max-height: calc(100vh - 2rem); /* Subtracting margin from the max-height */
+  overflow-y: auto; /* Use "auto" instead of "scroll" to only show scrollbar when needed */
+  /* padding: 1rem; */
+}

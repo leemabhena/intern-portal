@@ -1,0 +1,30 @@
+.Subscribe {
+  margin-top: 1rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  background-color: var(--primary-color);
+}
+
+.Subscribe p {
+  color: var(--grey);
+  text-align: justify;
+  font-size: 12px;
+  margin: 0.5rem 0;
+}
+
+.Subscribe input {
+  padding: 0.5rem;
+  width: 100%;
+  /* background-color: var(--primary-color); */
+  border: none;
+  outline: none;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.Subscribe button {
+  margin-top: 0.5rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-weight: bold;
+  padding: 0.3rem;
+}
